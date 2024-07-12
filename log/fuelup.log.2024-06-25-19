@@ -1,0 +1,428 @@
+[2m2024-06-25T19:17:19.961487Z[0m [34mDEBUG[0m Command: /root/.fuelup/bin/fuelup toolchain install latest
+[2m2024-06-25T19:17:19.961508Z[0m [34mDEBUG[0m PATH does not include .fuelup
+[2m2024-06-25T19:17:19.961510Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:17:19.974427Z[0m [34mDEBUG[0m connecting to raw.githubusercontent.com:443 at 185.199.110.133:443    
+[2m2024-06-25T19:17:19.976749Z[0m [34mDEBUG[0m No cached session for DnsName("raw.githubusercontent.com")    
+[2m2024-06-25T19:17:19.976954Z[0m [34mDEBUG[0m Not resuming any session    
+[2m2024-06-25T19:17:19.980739Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:19.980810Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:17:19.981031Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:19.981055Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:19.981847Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:19.981869Z[0m [34mDEBUG[0m sending request GET https://raw.githubusercontent.com/FuelLabs/fuelup/gh-pages/channel-fuel-testnet.toml    
+[2m2024-06-25T19:17:19.981882Z[0m [34mDEBUG[0m writing prelude: GET /FuelLabs/fuelup/gh-pages/channel-fuel-testnet.toml HTTP/1.1
+Host: raw.githubusercontent.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:20.141196Z[0m [34mDEBUG[0m Body entirely buffered (length: 1098)    
+[2m2024-06-25T19:17:20.141256Z[0m [34mDEBUG[0m adding stream to pool: https|raw.githubusercontent.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:20.141416Z[0m [34mDEBUG[0m response 200 to GET https://raw.githubusercontent.com/FuelLabs/fuelup/gh-pages/channel-fuel-testnet.toml    
+[2m2024-06-25T19:17:20.141921Z[0m [34mDEBUG[0m [00:00:00] [########################################] 4.84 KiB/4.84 KiB (0 seconds) - Download complete
+[2m2024-06-25T19:17:20.141941Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:20.146193Z[0m [32m INFO[0m Downloading: forc forc-explore forc-wallet fuel-core fuel-core-keygen 
+[2m2024-06-25T19:17:20.146736Z[0m [32m INFO[0m 
+Adding component forc v0.60.0 to 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:17:20.148428Z[0m [34mDEBUG[0m connecting to raw.githubusercontent.com:443 at 185.199.111.133:443    
+[2m2024-06-25T19:17:20.151358Z[0m [34mDEBUG[0m Resuming session    
+[2m2024-06-25T19:17:20.153935Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:20.153972Z[0m [34mDEBUG[0m Resuming using PSK    
+[2m2024-06-25T19:17:20.154178Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:20.154198Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:20.154327Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:20.154337Z[0m [34mDEBUG[0m sending request GET https://raw.githubusercontent.com/FuelLabs/sway/v0.60.0/test/src/sdk-harness/Cargo.toml    
+[2m2024-06-25T19:17:20.154349Z[0m [34mDEBUG[0m writing prelude: GET /FuelLabs/sway/v0.60.0/test/src/sdk-harness/Cargo.toml HTTP/1.1
+Host: raw.githubusercontent.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:20.263304Z[0m [34mDEBUG[0m Body entirely buffered (length: 417)    
+[2m2024-06-25T19:17:20.263352Z[0m [34mDEBUG[0m adding stream to pool: https|raw.githubusercontent.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:20.263447Z[0m [34mDEBUG[0m response 200 to GET https://raw.githubusercontent.com/FuelLabs/sway/v0.60.0/test/src/sdk-harness/Cargo.toml    
+[2m2024-06-25T19:17:20.263888Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:20.263990Z[0m [32m INFO[0m Caching fuels version at /root/.fuelup/store/forc-0.60.0/fuels_version
+[2m2024-06-25T19:17:20.264327Z[0m [32m INFO[0m Fetching binary from https://github.com/FuelLabs/sway/releases/download/v0.60.0/forc-binaries-linux_amd64.tar.gz
+[2m2024-06-25T19:17:20.306926Z[0m [34mDEBUG[0m connecting to github.com:443 at 140.82.121.3:443    
+[2m2024-06-25T19:17:20.315304Z[0m [34mDEBUG[0m No cached session for DnsName("github.com")    
+[2m2024-06-25T19:17:20.315877Z[0m [34mDEBUG[0m Not resuming any session    
+[2m2024-06-25T19:17:20.325144Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:20.325188Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:17:20.325335Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:20.325352Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:20.327486Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:20.327505Z[0m [34mDEBUG[0m sending request GET https://github.com/FuelLabs/sway/releases/download/v0.60.0/forc-binaries-linux_amd64.tar.gz    
+[2m2024-06-25T19:17:20.327514Z[0m [34mDEBUG[0m writing prelude: GET /FuelLabs/sway/releases/download/v0.60.0/forc-binaries-linux_amd64.tar.gz HTTP/1.1
+Host: github.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:20.473947Z[0m [34mDEBUG[0m zero-length body returning stream directly to pool    
+[2m2024-06-25T19:17:20.473980Z[0m [34mDEBUG[0m adding stream to pool: https|github.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:20.473992Z[0m [34mDEBUG[0m response 302 to GET https://github.com/FuelLabs/sway/releases/download/v0.60.0/forc-binaries-linux_amd64.tar.gz    
+[2m2024-06-25T19:17:20.474023Z[0m [34mDEBUG[0m redirect 302 https://github.com/FuelLabs/sway/releases/download/v0.60.0/forc-binaries-linux_amd64.tar.gz -> https://objects.githubusercontent.com/github-production-release-asset-2e65be/331107018/c1a89028-f315-48fa-9f4e-4e2ea01b7080?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191720Z&X-Amz-Expires=300&X-Amz-Signature=ada3f1e64552cb5b857f26fe21d18ecf08de83004b8c1a489b5770aca09fc2da&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=331107018&response-content-disposition=attachment%3B%20filename%3Dforc-binaries-linux_amd64.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:20.517721Z[0m [34mDEBUG[0m connecting to objects.githubusercontent.com:443 at 185.199.111.133:443    
+[2m2024-06-25T19:17:20.520077Z[0m [34mDEBUG[0m No cached session for DnsName("objects.githubusercontent.com")    
+[2m2024-06-25T19:17:20.520267Z[0m [34mDEBUG[0m Not resuming any session    
+[2m2024-06-25T19:17:20.525713Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:20.525772Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:17:20.525995Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:20.526021Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:20.526583Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:20.526602Z[0m [34mDEBUG[0m sending request GET https://objects.githubusercontent.com/github-production-release-asset-2e65be/331107018/c1a89028-f315-48fa-9f4e-4e2ea01b7080?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191720Z&X-Amz-Expires=300&X-Amz-Signature=ada3f1e64552cb5b857f26fe21d18ecf08de83004b8c1a489b5770aca09fc2da&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=331107018&response-content-disposition=attachment%3B%20filename%3Dforc-binaries-linux_amd64.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:20.526619Z[0m [34mDEBUG[0m writing prelude: GET /github-production-release-asset-2e65be/331107018/c1a89028-f315-48fa-9f4e-4e2ea01b7080?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191720Z&X-Amz-Expires=300&X-Amz-Signature=ada3f1e64552cb5b857f26fe21d18ecf08de83004b8c1a489b5770aca09fc2da&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=331107018&response-content-disposition=attachment%3B%20filename%3Dforc-binaries-linux_amd64.tar.gz&response-content-type=application%2Foctet-stream HTTP/1.1
+Host: objects.githubusercontent.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:20.955723Z[0m [34mDEBUG[0m Streaming body until content-length: 132020667    
+[2m2024-06-25T19:17:20.955763Z[0m [34mDEBUG[0m response 200 to GET https://objects.githubusercontent.com/github-production-release-asset-2e65be/331107018/c1a89028-f315-48fa-9f4e-4e2ea01b7080?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191720Z&X-Amz-Expires=300&X-Amz-Signature=ada3f1e64552cb5b857f26fe21d18ecf08de83004b8c1a489b5770aca09fc2da&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=331107018&response-content-disposition=attachment%3B%20filename%3Dforc-binaries-linux_amd64.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:22.440680Z[0m [34mDEBUG[0m adding stream to pool: https|objects.githubusercontent.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:22.440813Z[0m [34mDEBUG[0m [00:00:01] [########################################] 125.90 MiB/125.90 MiB (0 seconds) - Download complete
+[2m2024-06-25T19:17:22.440849Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:22.440905Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:24.995789Z[0m [32m INFO[0m Unpacking and moving forc-submit to /root/.fuelup/store/forc-0.60.0
+[2m2024-06-25T19:17:25.019950Z[0m [32m INFO[0m Unpacking and moving forc to /root/.fuelup/store/forc-0.60.0
+[2m2024-06-25T19:17:25.093081Z[0m [32m INFO[0m Unpacking and moving forc-run to /root/.fuelup/store/forc-0.60.0
+[2m2024-06-25T19:17:25.153413Z[0m [32m INFO[0m Unpacking and moving forc-debug to /root/.fuelup/store/forc-0.60.0
+[2m2024-06-25T19:17:25.281325Z[0m [32m INFO[0m Unpacking and moving forc-tx to /root/.fuelup/store/forc-0.60.0
+[2m2024-06-25T19:17:25.283820Z[0m [32m INFO[0m Unpacking and moving forc-doc to /root/.fuelup/store/forc-0.60.0
+[2m2024-06-25T19:17:25.388802Z[0m [32m INFO[0m Unpacking and moving forc-fmt to /root/.fuelup/store/forc-0.60.0
+[2m2024-06-25T19:17:25.426800Z[0m [32m INFO[0m Unpacking and moving forc-deploy to /root/.fuelup/store/forc-0.60.0
+[2m2024-06-25T19:17:25.570585Z[0m [32m INFO[0m Unpacking and moving forc-lsp to /root/.fuelup/store/forc-0.60.0
+[2m2024-06-25T19:17:25.713022Z[0m [32m INFO[0m Unpacking and moving forc-crypto to /root/.fuelup/store/forc-0.60.0
+[2m2024-06-25T19:17:25.887594Z[0m [32m INFO[0m Fetching core forc dependencies
+[2m2024-06-25T19:17:54.741660Z[0m [32m INFO[0m Installed forc v0.60.0 for toolchain 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:17:54.741797Z[0m [32m INFO[0m 
+Adding component forc-explore v0.28.1 to 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:17:54.742337Z[0m [32m INFO[0m Fetching binary from https://github.com/FuelLabs/forc-explorer/releases/download/v0.28.1/forc-explore-0.28.1-x86_64-unknown-linux-gnu.tar.gz
+[2m2024-06-25T19:17:54.785857Z[0m [34mDEBUG[0m connecting to github.com:443 at 140.82.121.3:443    
+[2m2024-06-25T19:17:54.794424Z[0m [34mDEBUG[0m Resuming session    
+[2m2024-06-25T19:17:54.805268Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:54.805438Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:17:54.805662Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:54.805733Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:54.808256Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:54.808347Z[0m [34mDEBUG[0m sending request GET https://github.com/FuelLabs/forc-explorer/releases/download/v0.28.1/forc-explore-0.28.1-x86_64-unknown-linux-gnu.tar.gz    
+[2m2024-06-25T19:17:54.808417Z[0m [34mDEBUG[0m writing prelude: GET /FuelLabs/forc-explorer/releases/download/v0.28.1/forc-explore-0.28.1-x86_64-unknown-linux-gnu.tar.gz HTTP/1.1
+Host: github.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:54.959353Z[0m [34mDEBUG[0m zero-length body returning stream directly to pool    
+[2m2024-06-25T19:17:54.959505Z[0m [34mDEBUG[0m adding stream to pool: https|github.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:54.959571Z[0m [34mDEBUG[0m response 302 to GET https://github.com/FuelLabs/forc-explorer/releases/download/v0.28.1/forc-explore-0.28.1-x86_64-unknown-linux-gnu.tar.gz    
+[2m2024-06-25T19:17:54.959634Z[0m [34mDEBUG[0m redirect 302 https://github.com/FuelLabs/forc-explorer/releases/download/v0.28.1/forc-explore-0.28.1-x86_64-unknown-linux-gnu.tar.gz -> https://objects.githubusercontent.com/github-production-release-asset-2e65be/469993218/d3646bfa-fa28-420a-9e8c-00175275b00b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191754Z&X-Amz-Expires=300&X-Amz-Signature=5185fc77e33bf950162587d3e7fc0c5236c5dce857c1f9ce3052ec295d91e305&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=469993218&response-content-disposition=attachment%3B%20filename%3Dforc-explore-0.28.1-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:55.002503Z[0m [34mDEBUG[0m connecting to objects.githubusercontent.com:443 at 185.199.109.133:443    
+[2m2024-06-25T19:17:55.005190Z[0m [34mDEBUG[0m Resuming session    
+[2m2024-06-25T19:17:55.007743Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:55.007849Z[0m [34mDEBUG[0m Resuming using PSK    
+[2m2024-06-25T19:17:55.008125Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:55.008181Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:55.008329Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:55.008463Z[0m [34mDEBUG[0m sending request GET https://objects.githubusercontent.com/github-production-release-asset-2e65be/469993218/d3646bfa-fa28-420a-9e8c-00175275b00b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191754Z&X-Amz-Expires=300&X-Amz-Signature=5185fc77e33bf950162587d3e7fc0c5236c5dce857c1f9ce3052ec295d91e305&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=469993218&response-content-disposition=attachment%3B%20filename%3Dforc-explore-0.28.1-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:55.008562Z[0m [34mDEBUG[0m writing prelude: GET /github-production-release-asset-2e65be/469993218/d3646bfa-fa28-420a-9e8c-00175275b00b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191754Z&X-Amz-Expires=300&X-Amz-Signature=5185fc77e33bf950162587d3e7fc0c5236c5dce857c1f9ce3052ec295d91e305&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=469993218&response-content-disposition=attachment%3B%20filename%3Dforc-explore-0.28.1-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream HTTP/1.1
+Host: objects.githubusercontent.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:55.436997Z[0m [34mDEBUG[0m Streaming body until content-length: 3143668    
+[2m2024-06-25T19:17:55.437036Z[0m [34mDEBUG[0m response 200 to GET https://objects.githubusercontent.com/github-production-release-asset-2e65be/469993218/d3646bfa-fa28-420a-9e8c-00175275b00b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191754Z&X-Amz-Expires=300&X-Amz-Signature=5185fc77e33bf950162587d3e7fc0c5236c5dce857c1f9ce3052ec295d91e305&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=469993218&response-content-disposition=attachment%3B%20filename%3Dforc-explore-0.28.1-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:55.484000Z[0m [34mDEBUG[0m adding stream to pool: https|objects.githubusercontent.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:55.484146Z[0m [34mDEBUG[0m [00:00:00] [########################################] 3.00 MiB/3.00 MiB (0 seconds) - Download complete
+[2m2024-06-25T19:17:55.484173Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:55.484223Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:55.547368Z[0m [32m INFO[0m Unpacking and moving forc-explore to /root/.fuelup/store/forc-explore-0.28.1
+[2m2024-06-25T19:17:55.563789Z[0m [32m INFO[0m Installed forc-explore v0.28.1 for toolchain 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:17:55.563909Z[0m [32m INFO[0m 
+Adding component forc-wallet v0.7.1 to 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:17:55.565494Z[0m [34mDEBUG[0m connecting to raw.githubusercontent.com:443 at 185.199.111.133:443    
+[2m2024-06-25T19:17:55.567807Z[0m [34mDEBUG[0m Resuming session    
+[2m2024-06-25T19:17:55.570755Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:55.570777Z[0m [34mDEBUG[0m Resuming using PSK    
+[2m2024-06-25T19:17:55.570999Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:55.571016Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:55.571099Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:55.571114Z[0m [34mDEBUG[0m sending request GET https://raw.githubusercontent.com/FuelLabs/forc-wallet/v0.7.1/Cargo.toml    
+[2m2024-06-25T19:17:55.571126Z[0m [34mDEBUG[0m writing prelude: GET /FuelLabs/forc-wallet/v0.7.1/Cargo.toml HTTP/1.1
+Host: raw.githubusercontent.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:55.772262Z[0m [34mDEBUG[0m Body entirely buffered (length: 486)    
+[2m2024-06-25T19:17:55.772299Z[0m [34mDEBUG[0m adding stream to pool: https|raw.githubusercontent.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:55.772344Z[0m [34mDEBUG[0m response 200 to GET https://raw.githubusercontent.com/FuelLabs/forc-wallet/v0.7.1/Cargo.toml    
+[2m2024-06-25T19:17:55.772694Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:55.772772Z[0m [32m INFO[0m Caching fuels version at /root/.fuelup/store/forc-wallet-0.7.1/fuels_version
+[2m2024-06-25T19:17:55.773253Z[0m [32m INFO[0m Fetching binary from https://github.com/FuelLabs/forc-wallet/releases/download/v0.7.1/forc-wallet-0.7.1-x86_64-unknown-linux-gnu.tar.gz
+[2m2024-06-25T19:17:55.815160Z[0m [34mDEBUG[0m connecting to github.com:443 at 140.82.121.3:443    
+[2m2024-06-25T19:17:55.830375Z[0m [34mDEBUG[0m Resuming session    
+[2m2024-06-25T19:17:55.846245Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:55.846304Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:17:55.846465Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:55.846474Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:55.848540Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:55.848560Z[0m [34mDEBUG[0m sending request GET https://github.com/FuelLabs/forc-wallet/releases/download/v0.7.1/forc-wallet-0.7.1-x86_64-unknown-linux-gnu.tar.gz    
+[2m2024-06-25T19:17:55.848572Z[0m [34mDEBUG[0m writing prelude: GET /FuelLabs/forc-wallet/releases/download/v0.7.1/forc-wallet-0.7.1-x86_64-unknown-linux-gnu.tar.gz HTTP/1.1
+Host: github.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:55.994606Z[0m [34mDEBUG[0m zero-length body returning stream directly to pool    
+[2m2024-06-25T19:17:55.994663Z[0m [34mDEBUG[0m adding stream to pool: https|github.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:55.994679Z[0m [34mDEBUG[0m response 302 to GET https://github.com/FuelLabs/forc-wallet/releases/download/v0.7.1/forc-wallet-0.7.1-x86_64-unknown-linux-gnu.tar.gz    
+[2m2024-06-25T19:17:55.994714Z[0m [34mDEBUG[0m redirect 302 https://github.com/FuelLabs/forc-wallet/releases/download/v0.7.1/forc-wallet-0.7.1-x86_64-unknown-linux-gnu.tar.gz -> https://objects.githubusercontent.com/github-production-release-asset-2e65be/489547828/4ecc6909-0a6b-40ac-99a2-f334da0919e3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191755Z&X-Amz-Expires=300&X-Amz-Signature=336df0e23136d621dbaa20968f432fb8e86ef52cb292bee9e4dce07a5b49cf37&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=489547828&response-content-disposition=attachment%3B%20filename%3Dforc-wallet-0.7.1-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:56.038103Z[0m [34mDEBUG[0m connecting to objects.githubusercontent.com:443 at 185.199.109.133:443    
+[2m2024-06-25T19:17:56.040399Z[0m [34mDEBUG[0m Resuming session    
+[2m2024-06-25T19:17:56.042821Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:56.042849Z[0m [34mDEBUG[0m Resuming using PSK    
+[2m2024-06-25T19:17:56.043126Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:56.043168Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:56.043301Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:56.043323Z[0m [34mDEBUG[0m sending request GET https://objects.githubusercontent.com/github-production-release-asset-2e65be/489547828/4ecc6909-0a6b-40ac-99a2-f334da0919e3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191755Z&X-Amz-Expires=300&X-Amz-Signature=336df0e23136d621dbaa20968f432fb8e86ef52cb292bee9e4dce07a5b49cf37&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=489547828&response-content-disposition=attachment%3B%20filename%3Dforc-wallet-0.7.1-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:56.043339Z[0m [34mDEBUG[0m writing prelude: GET /github-production-release-asset-2e65be/489547828/4ecc6909-0a6b-40ac-99a2-f334da0919e3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191755Z&X-Amz-Expires=300&X-Amz-Signature=336df0e23136d621dbaa20968f432fb8e86ef52cb292bee9e4dce07a5b49cf37&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=489547828&response-content-disposition=attachment%3B%20filename%3Dforc-wallet-0.7.1-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream HTTP/1.1
+Host: objects.githubusercontent.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:56.481467Z[0m [34mDEBUG[0m Streaming body until content-length: 6116354    
+[2m2024-06-25T19:17:56.481504Z[0m [34mDEBUG[0m response 200 to GET https://objects.githubusercontent.com/github-production-release-asset-2e65be/489547828/4ecc6909-0a6b-40ac-99a2-f334da0919e3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191755Z&X-Amz-Expires=300&X-Amz-Signature=336df0e23136d621dbaa20968f432fb8e86ef52cb292bee9e4dce07a5b49cf37&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=489547828&response-content-disposition=attachment%3B%20filename%3Dforc-wallet-0.7.1-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:56.546041Z[0m [34mDEBUG[0m adding stream to pool: https|objects.githubusercontent.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:56.546315Z[0m [34mDEBUG[0m [00:00:00] [########################################] 5.83 MiB/5.83 MiB (0 seconds) - Download complete
+[2m2024-06-25T19:17:56.546356Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:56.546419Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:56.767351Z[0m [32m INFO[0m Unpacking and moving forc-wallet to /root/.fuelup/store/forc-wallet-0.7.1
+[2m2024-06-25T19:17:56.794258Z[0m [32m INFO[0m Installed forc-wallet v0.7.1 for toolchain 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:17:56.794368Z[0m [32m INFO[0m 
+Adding component fuel-core v0.26.0 to 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:17:56.795101Z[0m [32m INFO[0m Fetching binary from https://github.com/FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz
+[2m2024-06-25T19:17:56.837284Z[0m [34mDEBUG[0m connecting to github.com:443 at 140.82.121.3:443    
+[2m2024-06-25T19:17:56.845437Z[0m [34mDEBUG[0m Resuming session    
+[2m2024-06-25T19:17:56.854049Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:56.854090Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:17:56.854248Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:56.854263Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:56.855987Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:56.856007Z[0m [34mDEBUG[0m sending request GET https://github.com/FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz    
+[2m2024-06-25T19:17:56.856017Z[0m [34mDEBUG[0m writing prelude: GET /FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz HTTP/1.1
+Host: github.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:57.043691Z[0m [34mDEBUG[0m zero-length body returning stream directly to pool    
+[2m2024-06-25T19:17:57.043735Z[0m [34mDEBUG[0m adding stream to pool: https|github.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:57.043748Z[0m [34mDEBUG[0m response 302 to GET https://github.com/FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz    
+[2m2024-06-25T19:17:57.043774Z[0m [34mDEBUG[0m redirect 302 https://github.com/FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz -> https://objects.githubusercontent.com/github-production-release-asset-2e65be/290882787/50e3f80f-e92a-49ef-9754-081d545478a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191756Z&X-Amz-Expires=300&X-Amz-Signature=13ba0d963692ee287b62ba9f7c6f6ac49b66658728aa3e2c19ef7fd75f66c1b5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=290882787&response-content-disposition=attachment%3B%20filename%3Dfuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:57.086564Z[0m [34mDEBUG[0m connecting to objects.githubusercontent.com:443 at 185.199.109.133:443    
+[2m2024-06-25T19:17:57.088667Z[0m [34mDEBUG[0m Resuming session    
+[2m2024-06-25T19:17:57.091076Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:57.091115Z[0m [34mDEBUG[0m Resuming using PSK    
+[2m2024-06-25T19:17:57.091287Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:57.091307Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:57.091422Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:57.091442Z[0m [34mDEBUG[0m sending request GET https://objects.githubusercontent.com/github-production-release-asset-2e65be/290882787/50e3f80f-e92a-49ef-9754-081d545478a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191756Z&X-Amz-Expires=300&X-Amz-Signature=13ba0d963692ee287b62ba9f7c6f6ac49b66658728aa3e2c19ef7fd75f66c1b5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=290882787&response-content-disposition=attachment%3B%20filename%3Dfuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:57.091459Z[0m [34mDEBUG[0m writing prelude: GET /github-production-release-asset-2e65be/290882787/50e3f80f-e92a-49ef-9754-081d545478a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191756Z&X-Amz-Expires=300&X-Amz-Signature=13ba0d963692ee287b62ba9f7c6f6ac49b66658728aa3e2c19ef7fd75f66c1b5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=290882787&response-content-disposition=attachment%3B%20filename%3Dfuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream HTTP/1.1
+Host: objects.githubusercontent.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:57.511308Z[0m [34mDEBUG[0m Streaming body until content-length: 18140544    
+[2m2024-06-25T19:17:57.511345Z[0m [34mDEBUG[0m response 200 to GET https://objects.githubusercontent.com/github-production-release-asset-2e65be/290882787/50e3f80f-e92a-49ef-9754-081d545478a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191756Z&X-Amz-Expires=300&X-Amz-Signature=13ba0d963692ee287b62ba9f7c6f6ac49b66658728aa3e2c19ef7fd75f66c1b5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=290882787&response-content-disposition=attachment%3B%20filename%3Dfuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:57.765155Z[0m [34mDEBUG[0m adding stream to pool: https|objects.githubusercontent.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:57.765284Z[0m [34mDEBUG[0m [00:00:00] [########################################] 17.30 MiB/17.30 MiB (0 seconds) - Download complete
+[2m2024-06-25T19:17:57.765321Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:57.765386Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:58.138943Z[0m [32m INFO[0m Unpacking and moving fuel-core-keygen to /root/.fuelup/store/fuel-core-0.26.0
+[2m2024-06-25T19:17:58.140265Z[0m [32m INFO[0m Unpacking and moving fuel-core-wasm-executor.wasm to /root/.fuelup/store/fuel-core-0.26.0
+[2m2024-06-25T19:17:58.143202Z[0m [32m INFO[0m Unpacking and moving fuel-core to /root/.fuelup/store/fuel-core-0.26.0
+[2m2024-06-25T19:17:58.227454Z[0m [32m INFO[0m Installed fuel-core v0.26.0 for toolchain 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:17:58.227625Z[0m [32m INFO[0m 
+Adding component fuel-core-keygen v0.26.0 to 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:17:58.228397Z[0m [32m INFO[0m Fetching binary from https://github.com/FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz
+[2m2024-06-25T19:17:58.270275Z[0m [34mDEBUG[0m connecting to github.com:443 at 140.82.121.3:443    
+[2m2024-06-25T19:17:58.279111Z[0m [34mDEBUG[0m Resuming session    
+[2m2024-06-25T19:17:58.288132Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:58.288219Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:17:58.288383Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:58.288400Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:58.290544Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:58.290576Z[0m [34mDEBUG[0m sending request GET https://github.com/FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz    
+[2m2024-06-25T19:17:58.290590Z[0m [34mDEBUG[0m writing prelude: GET /FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz HTTP/1.1
+Host: github.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:58.299762Z[0m [34mDEBUG[0m zero-length body returning stream directly to pool    
+[2m2024-06-25T19:17:58.299800Z[0m [34mDEBUG[0m adding stream to pool: https|github.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:58.299812Z[0m [34mDEBUG[0m response 302 to GET https://github.com/FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz    
+[2m2024-06-25T19:17:58.299857Z[0m [34mDEBUG[0m redirect 302 https://github.com/FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz -> https://objects.githubusercontent.com/github-production-release-asset-2e65be/290882787/50e3f80f-e92a-49ef-9754-081d545478a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191756Z&X-Amz-Expires=300&X-Amz-Signature=13ba0d963692ee287b62ba9f7c6f6ac49b66658728aa3e2c19ef7fd75f66c1b5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=290882787&response-content-disposition=attachment%3B%20filename%3Dfuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:58.341407Z[0m [34mDEBUG[0m connecting to objects.githubusercontent.com:443 at 185.199.111.133:443    
+[2m2024-06-25T19:17:58.344232Z[0m [34mDEBUG[0m Resuming session    
+[2m2024-06-25T19:17:58.346754Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:17:58.346808Z[0m [34mDEBUG[0m Resuming using PSK    
+[2m2024-06-25T19:17:58.347052Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:17:58.347078Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:17:58.347201Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:58.347219Z[0m [34mDEBUG[0m sending request GET https://objects.githubusercontent.com/github-production-release-asset-2e65be/290882787/50e3f80f-e92a-49ef-9754-081d545478a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191756Z&X-Amz-Expires=300&X-Amz-Signature=13ba0d963692ee287b62ba9f7c6f6ac49b66658728aa3e2c19ef7fd75f66c1b5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=290882787&response-content-disposition=attachment%3B%20filename%3Dfuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:58.347236Z[0m [34mDEBUG[0m writing prelude: GET /github-production-release-asset-2e65be/290882787/50e3f80f-e92a-49ef-9754-081d545478a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191756Z&X-Amz-Expires=300&X-Amz-Signature=13ba0d963692ee287b62ba9f7c6f6ac49b66658728aa3e2c19ef7fd75f66c1b5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=290882787&response-content-disposition=attachment%3B%20filename%3Dfuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream HTTP/1.1
+Host: objects.githubusercontent.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:17:58.708353Z[0m [34mDEBUG[0m Streaming body until content-length: 18140544    
+[2m2024-06-25T19:17:58.708409Z[0m [34mDEBUG[0m response 200 to GET https://objects.githubusercontent.com/github-production-release-asset-2e65be/290882787/50e3f80f-e92a-49ef-9754-081d545478a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T191756Z&X-Amz-Expires=300&X-Amz-Signature=13ba0d963692ee287b62ba9f7c6f6ac49b66658728aa3e2c19ef7fd75f66c1b5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=290882787&response-content-disposition=attachment%3B%20filename%3Dfuel-core-0.26.0-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream    
+[2m2024-06-25T19:17:59.379534Z[0m [34mDEBUG[0m adding stream to pool: https|objects.githubusercontent.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:17:59.379714Z[0m [34mDEBUG[0m [00:00:00] [########################################] 17.30 MiB/17.30 MiB (0 seconds) - Download complete
+[2m2024-06-25T19:17:59.379749Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:59.379845Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:17:59.734567Z[0m [32m INFO[0m Unpacking and moving fuel-core-keygen to /root/.fuelup/store/fuel-core-keygen-0.26.0
+[2m2024-06-25T19:17:59.735899Z[0m [32m INFO[0m Unpacking and moving fuel-core-wasm-executor.wasm to /root/.fuelup/store/fuel-core-keygen-0.26.0
+[2m2024-06-25T19:17:59.739201Z[0m [32m INFO[0m Unpacking and moving fuel-core to /root/.fuelup/store/fuel-core-keygen-0.26.0
+[2m2024-06-25T19:17:59.811123Z[0m [32m INFO[0m Installed fuel-core-keygen v0.26.0 for toolchain 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:17:59.811226Z[0m [32m INFO[0m 
+Installed:
+- forc 0.60.0
+- forc-explore 0.28.1
+- forc-wallet 0.7.1
+- fuel-core 0.26.0
+- fuel-core-keygen 0.26.0
+
+[2m2024-06-25T19:17:59.811240Z[0m [32m INFO[0m 
+The Fuel toolchain is installed and up to date
+[2m2024-06-25T19:20:59.859949Z[0m [34mDEBUG[0m Command: /root/.fuelup/bin/fuelup toolchain install latest
+[2m2024-06-25T19:20:59.859990Z[0m [34mDEBUG[0m PATH does not include .fuelup
+[2m2024-06-25T19:20:59.859994Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:20:59.863687Z[0m [34mDEBUG[0m connecting to raw.githubusercontent.com:443 at 185.199.108.133:443    
+[2m2024-06-25T19:20:59.866075Z[0m [34mDEBUG[0m No cached session for DnsName("raw.githubusercontent.com")    
+[2m2024-06-25T19:20:59.866264Z[0m [34mDEBUG[0m Not resuming any session    
+[2m2024-06-25T19:20:59.870285Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:20:59.870332Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:20:59.870541Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:20:59.870554Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:20:59.871114Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:20:59.871132Z[0m [34mDEBUG[0m sending request GET https://raw.githubusercontent.com/FuelLabs/fuelup/gh-pages/channel-fuel-testnet.toml    
+[2m2024-06-25T19:20:59.871141Z[0m [34mDEBUG[0m writing prelude: GET /FuelLabs/fuelup/gh-pages/channel-fuel-testnet.toml HTTP/1.1
+Host: raw.githubusercontent.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:20:59.874486Z[0m [34mDEBUG[0m Body entirely buffered (length: 1098)    
+[2m2024-06-25T19:20:59.874515Z[0m [34mDEBUG[0m adding stream to pool: https|raw.githubusercontent.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:20:59.874796Z[0m [34mDEBUG[0m response 200 to GET https://raw.githubusercontent.com/FuelLabs/fuelup/gh-pages/channel-fuel-testnet.toml    
+[2m2024-06-25T19:20:59.875251Z[0m [34mDEBUG[0m [00:00:00] [########################################] 4.84 KiB/4.84 KiB (0 seconds) - Download complete
+[2m2024-06-25T19:20:59.875285Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:20:59.881285Z[0m [32m INFO[0m Downloading: forc forc-explore forc-wallet fuel-core fuel-core-keygen 
+[2m2024-06-25T19:20:59.886097Z[0m [32m INFO[0m 
+Installed:
+- forc 0.60.0
+- forc-explore 0.28.1
+- forc-wallet 0.7.1
+- fuel-core 0.26.0
+- fuel-core-keygen 0.26.0
+
+[2m2024-06-25T19:20:59.886137Z[0m [32m INFO[0m 
+The Fuel toolchain is installed and up to date
+[2m2024-06-25T19:28:56.472620Z[0m [34mDEBUG[0m Command: fuelup
+[2m2024-06-25T19:28:56.472646Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:28:56.472650Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:29:13.488800Z[0m [34mDEBUG[0m Command: fuelup self update
+[2m2024-06-25T19:29:13.488819Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:29:13.488822Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:29:13.540239Z[0m [34mDEBUG[0m connecting to api.github.com:443 at 140.82.121.6:443    
+[2m2024-06-25T19:29:13.548750Z[0m [34mDEBUG[0m No cached session for DnsName("api.github.com")    
+[2m2024-06-25T19:29:13.548992Z[0m [34mDEBUG[0m Not resuming any session    
+[2m2024-06-25T19:29:13.557282Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:29:13.557356Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:29:13.557739Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:29:13.557769Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:29:13.559622Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:29:13.559646Z[0m [34mDEBUG[0m sending request GET https://api.github.com/repos/FuelLabs/fuelup/releases/latest    
+[2m2024-06-25T19:29:13.559660Z[0m [34mDEBUG[0m writing prelude: GET /repos/FuelLabs/fuelup/releases/latest HTTP/1.1
+Host: api.github.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:29:13.712166Z[0m [34mDEBUG[0m Body entirely buffered (length: 1316)    
+[2m2024-06-25T19:29:13.712216Z[0m [34mDEBUG[0m adding stream to pool: https|api.github.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:29:13.712379Z[0m [34mDEBUG[0m response 200 to GET https://api.github.com/repos/FuelLabs/fuelup/releases/latest    
+[2m2024-06-25T19:29:13.712673Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:29:13.722274Z[0m [34mDEBUG[0m Command: /root/.fuelup/bin/fuelup --version
+[2m2024-06-25T19:29:13.722325Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:29:13.722329Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:29:13.724810Z[0m [32m INFO[0m Already up to date (fuelup v0.25.1)
+[2m2024-06-25T19:29:17.283908Z[0m [34mDEBUG[0m Command: fuelup self update
+[2m2024-06-25T19:29:17.283927Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:29:17.283929Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:29:17.328777Z[0m [34mDEBUG[0m connecting to api.github.com:443 at 140.82.121.6:443    
+[2m2024-06-25T19:29:17.336967Z[0m [34mDEBUG[0m No cached session for DnsName("api.github.com")    
+[2m2024-06-25T19:29:17.337209Z[0m [34mDEBUG[0m Not resuming any session    
+[2m2024-06-25T19:29:17.345767Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:29:17.345835Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:29:17.345964Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:29:17.345976Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:29:17.347629Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:29:17.347651Z[0m [34mDEBUG[0m sending request GET https://api.github.com/repos/FuelLabs/fuelup/releases/latest    
+[2m2024-06-25T19:29:17.347661Z[0m [34mDEBUG[0m writing prelude: GET /repos/FuelLabs/fuelup/releases/latest HTTP/1.1
+Host: api.github.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:29:17.356721Z[0m [34mDEBUG[0m Body entirely buffered (length: 1316)    
+[2m2024-06-25T19:29:17.356775Z[0m [34mDEBUG[0m adding stream to pool: https|api.github.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:29:17.356946Z[0m [34mDEBUG[0m response 200 to GET https://api.github.com/repos/FuelLabs/fuelup/releases/latest    
+[2m2024-06-25T19:29:17.357104Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:29:17.365020Z[0m [34mDEBUG[0m Command: /root/.fuelup/bin/fuelup --version
+[2m2024-06-25T19:29:17.365040Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:29:17.365043Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:29:17.366352Z[0m [32m INFO[0m Already up to date (fuelup v0.25.1)
+[2m2024-06-25T19:29:17.375804Z[0m [34mDEBUG[0m Command: fuelup update
+[2m2024-06-25T19:29:17.375826Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:29:17.375829Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:29:17.377021Z[0m [32m INFO[0m updating the 'latest-x86_64-unknown-linux-gnu' toolchain
+[2m2024-06-25T19:29:17.418737Z[0m [34mDEBUG[0m connecting to raw.githubusercontent.com:443 at 185.199.108.133:443    
+[2m2024-06-25T19:29:18.426952Z[0m [34mDEBUG[0m No cached session for DnsName("raw.githubusercontent.com")    
+[2m2024-06-25T19:29:18.427180Z[0m [34mDEBUG[0m Not resuming any session    
+[2m2024-06-25T19:29:18.431313Z[0m [34mDEBUG[0m Using ciphersuite TLS13_AES_128_GCM_SHA256    
+[2m2024-06-25T19:29:18.431379Z[0m [34mDEBUG[0m Not resuming    
+[2m2024-06-25T19:29:18.431718Z[0m [34mDEBUG[0m TLS1.3 encrypted extensions: [ServerNameAck]    
+[2m2024-06-25T19:29:18.431737Z[0m [34mDEBUG[0m ALPN protocol is None    
+[2m2024-06-25T19:29:18.432086Z[0m [34mDEBUG[0m created stream: Stream(RustlsStream)    
+[2m2024-06-25T19:29:18.432103Z[0m [34mDEBUG[0m sending request GET https://raw.githubusercontent.com/FuelLabs/fuelup/gh-pages/channel-fuel-testnet.toml    
+[2m2024-06-25T19:29:18.432111Z[0m [34mDEBUG[0m writing prelude: GET /FuelLabs/fuelup/gh-pages/channel-fuel-testnet.toml HTTP/1.1
+Host: raw.githubusercontent.com
+User-Agent: fuelup
+Accept: */*
+accept-encoding: gzip    
+[2m2024-06-25T19:29:18.586310Z[0m [34mDEBUG[0m Body entirely buffered (length: 1098)    
+[2m2024-06-25T19:29:18.586358Z[0m [34mDEBUG[0m adding stream to pool: https|raw.githubusercontent.com|443 -> Stream(RustlsStream)    
+[2m2024-06-25T19:29:18.586634Z[0m [34mDEBUG[0m response 200 to GET https://raw.githubusercontent.com/FuelLabs/fuelup/gh-pages/channel-fuel-testnet.toml    
+[2m2024-06-25T19:29:18.587138Z[0m [34mDEBUG[0m [00:00:00] [########################################] 4.84 KiB/4.84 KiB (0 seconds) - Download complete
+[2m2024-06-25T19:29:18.587153Z[0m [34mDEBUG[0m dropping stream: Stream(RustlsStream)    
+[2m2024-06-25T19:29:18.590962Z[0m [32m INFO[0m Downloading: forc forc-explore forc-wallet fuel-core fuel-core-keygen 
+[2m2024-06-25T19:29:18.593692Z[0m [32m INFO[0m 
+[2m2024-06-25T19:29:18.593754Z[0m [32m INFO[0m [1;32mlatest updated[0m
+[2m2024-06-25T19:29:18.593779Z[0m [32m INFO[0m   updated components:
+  - forc 0.60.0
+  - forc-explore 0.28.1
+  - forc-wallet 0.7.1
+  - fuel-core 0.26.0
+  - fuel-core-keygen 0.26.0
+
+[2m2024-06-25T19:29:18.605162Z[0m [34mDEBUG[0m Command: fuelup default latest
+[2m2024-06-25T19:29:18.605183Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:29:18.605186Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:29:18.611671Z[0m [32m INFO[0m default toolchain set to 'latest-x86_64-unknown-linux-gnu'
+[2m2024-06-25T19:29:37.995296Z[0m [34mDEBUG[0m Command: forc new contract
+[2m2024-06-25T19:29:37.995313Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:29:37.995315Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:31:32.498451Z[0m [34mDEBUG[0m Command: forc new contract
+[2m2024-06-25T19:31:32.498471Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:31:32.498474Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:31:58.371508Z[0m [34mDEBUG[0m Command: forc new contract
+[2m2024-06-25T19:31:58.371533Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:31:58.371535Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:32:05.514041Z[0m [34mDEBUG[0m Command: forc test
+[2m2024-06-25T19:32:05.514065Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:32:05.514069Z[0m [34mDEBUG[0m FUELUP_HOME is not set
+[2m2024-06-25T19:32:09.022173Z[0m [34mDEBUG[0m Command: forc build
+[2m2024-06-25T19:32:09.022196Z[0m [34mDEBUG[0m PATH includes /root/.fuelup/bin
+[2m2024-06-25T19:32:09.022199Z[0m [34mDEBUG[0m FUELUP_HOME is not set
